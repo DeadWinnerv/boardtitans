@@ -1,0 +1,24 @@
+<div class="container">
+	<dx-menu>
+		<dxi-item
+			[text]="'boardtitans' | uppercase"
+			routerLink="/dashboard"
+			></dxi-item>
+		<dxi-item
+			text="Категории"
+			routerLink="/dashboard"
+			></dxi-item>
+		<dxi-item
+			icon="user"
+			routerLink="/dashboard"
+			></dxi-item>
+		<dxi-item
+		icon="cart"
+			routerLink="/dashboard"
+			></dxi-item>
+		</dx-menu>
+		<dx-text-box
+		placeholder="Поиск"
+		[showClearButton]="true"
+		></dx-text-box>
+</div>
